@@ -1,0 +1,13 @@
+<div class="container3 w-25 mt-5">
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Source</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" name="source" [(ngModel)]="source" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Desitnation</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" name="dest" [(ngModel)]="destination">
+        <button type="submit" class="btn btn-primary" [routerLink]="['/flight-list',source,destination]">Search</button>
+        </div>
+    </form>
+</div>
