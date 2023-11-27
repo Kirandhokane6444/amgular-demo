@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstproject';
+  message:string='Welcome';
+  message1:string="Angular Course";
+  message2:string="Welcome to Velocity"
 }
